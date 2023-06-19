@@ -24,9 +24,9 @@ const connect = function() {
   // });
   
 
-  // conn.on('data', data => {
-  //   console.log(data);
-  // });
+  conn.on('data', data => {
+    console.log(data);
+  });
   return conn;
 };
 
