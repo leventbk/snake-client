@@ -20,7 +20,7 @@ const handleUserInput = function(key) { // To quit the game
     process.exit();
   }
 
-  if (!Object.keys(COMMANDS).includes(key)) { 
+  if (!Object.keys(COMMANDS).includes(key)) {
     return;
   }
 
